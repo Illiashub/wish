@@ -22,22 +22,21 @@
 
     .header{
         &__block{
-            max-width: 768px;
+            
             margin-left: 70px;
             
         }
 
         &__btn{
-            // width: 90px;
+            width: 100px;
             // font-size: 12px;
-            margin-right: 63px;
+            margin-right: 112px;
         }
         
     }
 
     .promo{
-        max-width: 570px;
-        max-height: 400px;
+        height: 700px;
         
 
         &__title{
@@ -60,9 +59,12 @@
         }
 
         &__img{
-            width: 300px;
-            height: 400px;
-            
+            height: 450px;
+        }
+
+        &__block{
+            align-items: center;
+            flex-direction: column;
         }
 
         

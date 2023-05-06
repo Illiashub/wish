@@ -356,15 +356,14 @@
     max-width: 540px;
   }
   .header__block {
-    max-width: 768px;
     margin-left: 70px;
   }
   .header__btn {
-    margin-right: 63px;
+    width: 100px;
+    margin-right: 112px;
   }
   .promo {
-    max-width: 570px;
-    max-height: 400px;
+    height: 700px;
   }
   .promo__title {
     padding: 0;
@@ -383,8 +382,11 @@
     font-size: 15px;
   }
   .promo__img {
-    width: 300px;
-    height: 400px;
+    height: 450px;
+  }
+  .promo__block {
+    align-items: center;
+    flex-direction: column;
   }
   .preview__wrapper {
     flex-direction: column;
