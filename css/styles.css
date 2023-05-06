@@ -356,35 +356,29 @@
     max-width: 540px;
   }
   .header__block {
-    max-width: 768px;
     margin-left: 70px;
   }
   .header__btn {
+    width: 100px;
     margin-right: 63px;
   }
   .promo {
-    max-width: 570px;
-    max-height: 400px;
-  }
-  .promo__title {
-    padding: 0;
-    margin: 0;
-    font-size: 48px;
-    width: 428px;
-  }
-  .promo__subtitle {
-    padding-left: 0;
-    margin: 0;
-    padding-top: 60px;
-  }
-  .promo__descr {
-    padding-left: 0;
-    margin: 0;
-    font-size: 15px;
+    max-width: 600px;
   }
   .promo__img {
     width: 300px;
-    height: 400px;
+    height: 450px;
+  }
+  .promo__subtitle {
+    padding-left: 0;
+    padding-top: 40px;
+  }
+  .promo__title {
+    padding-left: 0;
+    font-size: 50px;
+  }
+  .promo__descr {
+    padding-left: 0;
   }
   .preview__wrapper {
     flex-direction: column;
