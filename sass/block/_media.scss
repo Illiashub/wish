@@ -21,33 +21,30 @@
     }
 
     .header{
-        &__block{
-           
 
-            margin-left: 70px;
-
-        }
+        // &__logo{
+        //     width: 147px;
+        // }
 
         &__btn{
             
             width: 100px;
             // font-size: 12px;
-            margin-right: 63px;
+            
             
         }
 
     }
 
     .promo{
-       max-width: 600px;
+       max-width: 550px;
        
 
 
        
 
         &__img{
-            width: 300px;
-            height: 450px;
+            display: none;
         }
 
         &__subtitle{
@@ -77,19 +74,20 @@
         }
 
         &__block{
-            margin-left: 100px;
+            margin-left: 20px;
         }
     }
 
     .projects{
-        max-width: 768px;
+        max-width: 550px;
 
         &__subheader{
-            padding-left: 550px;
+            padding-left: 325px;
         }
 
         &__descr{
-            padding-left: 550px;
+            padding-left: 325px;
+            width: 179px;
         }
 
         
@@ -99,13 +97,24 @@
         max-width: 568px;
         
         &__block{
-            padding-left: 250px;
+            padding-left: 180px;
             flex-direction: column;
             align-items: center;
+        }
+
+        &__subtitle{
+            padding-left: 20px;
+        }
+
+        &__title{
+            padding-left: 20px;
         }
     }
 
     .clients{
+        max-width: 550px;
+
+        
 
 
         &__block{
@@ -114,7 +123,8 @@
         }
 
         &__list{
-            padding-left: 370px;
+            padding-left: 180px;
+            padding-right: 0px;
         }
     }
 
@@ -128,6 +138,17 @@
 
         &__button{
             padding-left: 300px;
+        }
+    }
+
+    .team{
+        &__block{
+            flex-direction: column;
+            padding-left: 90px;
+        }
+
+        &__report{
+            margin-bottom: 60px;
         }
     }
 

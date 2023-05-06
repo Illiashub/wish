@@ -355,19 +355,14 @@
   .container {
     max-width: 540px;
   }
-  .header__block {
-    margin-left: 70px;
-  }
   .header__btn {
     width: 100px;
-    margin-right: 63px;
   }
   .promo {
-    max-width: 600px;
+    max-width: 550px;
   }
   .promo__img {
-    width: 300px;
-    height: 450px;
+    display: none;
   }
   .promo__subtitle {
     padding-left: 0;
@@ -384,31 +379,42 @@
     flex-direction: column;
   }
   .preview__block {
-    margin-left: 100px;
+    margin-left: 20px;
   }
   .projects {
-    max-width: 768px;
+    max-width: 550px;
   }
   .projects__subheader {
-    padding-left: 550px;
+    padding-left: 325px;
   }
   .projects__descr {
-    padding-left: 550px;
+    padding-left: 325px;
+    width: 179px;
   }
   .process {
     max-width: 568px;
   }
   .process__block {
-    padding-left: 250px;
+    padding-left: 180px;
     flex-direction: column;
     align-items: center;
+  }
+  .process__subtitle {
+    padding-left: 20px;
+  }
+  .process__title {
+    padding-left: 20px;
+  }
+  .clients {
+    max-width: 550px;
   }
   .clients__block {
     flex-direction: column;
     align-items: center;
   }
   .clients__list {
-    padding-left: 370px;
+    padding-left: 180px;
+    padding-right: 0px;
   }
   .featured__list {
     flex-direction: column;
@@ -416,6 +422,13 @@
   }
   .featured__button {
     padding-left: 300px;
+  }
+  .team__block {
+    flex-direction: column;
+    padding-left: 90px;
+  }
+  .team__report {
+    margin-bottom: 60px;
   }
 }
 @media (max-width: 576px) {
