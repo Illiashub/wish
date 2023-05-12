@@ -355,9 +355,6 @@
   .container {
     max-width: 540px;
   }
-  .header__logo {
-    width: 157px;
-  }
   .header__btn {
     width: 100px;
   }
@@ -374,76 +371,6 @@
   }
   .promo__descr {
     padding-left: 0;
-  }
-  .preview__wrapper {
-    flex-direction: column;
-  }
-  .preview__block {
-    margin-left: 20px;
-  }
-  .projects__subheader {
-    padding-left: 325px;
-  }
-  .projects__descr {
-    padding-left: 325px;
-    width: 179px;
-  }
-  .projects__subheader {
-    padding-left: 560px;
-    margin-top: 0;
-  }
-  .projects__descr {
-    padding-left: 560px;
-  }
-  .process__block {
-    padding-left: 150px;
-    flex-direction: column;
-    align-items: center;
-  }
-  .process__subtitle {
-    padding-left: 10px;
-  }
-  .process__title {
-    width: 500px;
-    padding-left: 30px;
-  }
-  .clients__report {
-    padding-left: 60px;
-  }
-  .clients__block {
-    flex-direction: column;
-    align-items: center;
-  }
-  .clients__list {
-    padding-left: 130px;
-    padding-right: 0px;
-  }
-  .featured__list {
-    flex-direction: row-reverse;
-    align-items: center;
-  }
-  .featured__button {
-    padding-left: 300px;
-  }
-  .featured__items1 {
-    display: none;
-  }
-  .team__block {
-    flex-direction: column;
-    padding-left: 90px;
-  }
-  .team__report {
-    margin-bottom: 60px;
-  }
-  .touch__title {
-    font-size: 30px;
-  }
-  .touch__desc {
-    padding-left: 90px;
-  }
-  .footer__block {
-    flex-direction: column;
-    align-items: center;
   }
 }
 @media (max-width: 576px) {

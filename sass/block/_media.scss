@@ -22,9 +22,9 @@
 
     .header{
 
-        // &__logo{
-        //     width: 147px;
-        // }
+        &__logo{
+            width: 157px;
+        }
 
         &__btn{
             
@@ -37,12 +37,7 @@
     }
 
     .promo{
-       max-width: 550px;
        
-
-
-       
-
         &__img{
             display: none;
         }
@@ -79,7 +74,7 @@
     }
 
     .projects{
-        max-width: 550px;
+        
 
         &__subheader{
             padding-left: 325px;
@@ -93,27 +88,43 @@
         
     }
 
+    .projects{
+        
+
+        &__subheader{
+            padding-left: 560px;
+            margin-top: 0;
+        }
+
+        &__descr{
+            padding-left: 560px;
+        }
+    }
+
     .process{
-        max-width: 568px;
+        
         
         &__block{
-            padding-left: 180px;
+            padding-left: 150px;
             flex-direction: column;
             align-items: center;
         }
 
         &__subtitle{
-            padding-left: 20px;
+            padding-left: 10px;
         }
 
         &__title{
-            padding-left: 20px;
+            width: 500px;
+            padding-left: 30px;
         }
     }
 
     .clients{
-        max-width: 550px;
-
+        
+        &__report{
+            padding-left: 60px;
+        }
         
 
 
@@ -123,7 +134,7 @@
         }
 
         &__list{
-            padding-left: 180px;
+            padding-left: 130px;
             padding-right: 0px;
         }
     }
@@ -132,12 +143,16 @@
 
 
         &__list{
-            flex-direction: column;
+            flex-direction: row-reverse;
             align-items: center;
         }
 
         &__button{
             padding-left: 300px;
+        }
+
+        &__items1{
+            display: none;
         }
     }
 
@@ -149,6 +164,24 @@
 
         &__report{
             margin-bottom: 60px;
+        }
+    }
+
+    .touch{
+
+        &__title{
+            font-size: 30px;
+        }
+
+        &__desc{
+            padding-left: 90px;
+        }
+    }
+
+    .footer{
+        &__block{
+            flex-direction: column;
+            align-items: center;
         }
     }
 
