@@ -1,7 +1,7 @@
 .header{
     &__block{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     &__logo{
@@ -12,8 +12,8 @@
     &__nav{
         padding-top: 5px;
         display: flex;
-        justify-content: space-around;
-        width: 598px;
+        justify-content: space-between;
+        // width: 598px;
         padding-top: 20px;
         
     }

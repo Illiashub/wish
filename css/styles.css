@@ -5,7 +5,7 @@
 
 .header__block {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .header__logo {
   width: 225px;
@@ -15,8 +15,7 @@
 .header__nav {
   padding-top: 5px;
   display: flex;
-  justify-content: space-around;
-  width: 598px;
+  justify-content: space-between;
   padding-top: 20px;
 }
 .header__btn {
@@ -29,9 +28,10 @@
 
 .nav__list {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   list-style-type: none;
   width: 270px;
+  margin-right: 20px;
 }
 
 .promo {
@@ -302,7 +302,6 @@
   margin-top: 100px;
 }
 .touch__desc {
-  padding-left: 136px;
   padding-top: 70px;
   padding-bottom: 70px;
 }
@@ -360,6 +359,9 @@
   }
   .header__btn {
     width: 100px;
+  }
+  .nav {
+    display: none;
   }
   .promo__img {
     display: none;
@@ -438,9 +440,6 @@
   .touch__title {
     font-size: 30px;
   }
-  .touch__desc {
-    padding-left: 90px;
-  }
   .footer__block {
     flex-direction: column;
     align-items: center;
@@ -449,5 +448,65 @@
 @media (max-width: 576px) {
   .container {
     max-width: 360px;
+  }
+  .header {
+    max-width: 100%;
+  }
+  .header__logo {
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+  .promo {
+    max-width: 100%;
+  }
+  .promo__title {
+    font-size: 40px;
+  }
+  .promo__btn {
+    padding-bottom: 20px;
+  }
+  .projects {
+    max-width: 100%;
+  }
+  .projects__subheader {
+    padding-left: 360px;
+  }
+  .projects__descr {
+    padding-left: 360px;
+  }
+  .process {
+    max-width: 100%;
+  }
+  .process__title {
+    padding-left: 0;
+    font-size: 30px;
+    width: 390px;
+  }
+  .process__items {
+    margin-bottom: 30px;
+  }
+  .featured {
+    max-width: 100%;
+  }
+  .featured__list {
+    flex-direction: column;
+  }
+  .featured__title {
+    padding-left: 100px;
+  }
+  .featured__subtitle {
+    padding-left: 100px;
+  }
+  .featured__button {
+    padding-left: 240px;
+  }
+  .preview__author__name {
+    width: 110px;
+  }
+  .team__preview {
+    gap: 15px;
+  }
+  .team__block {
+    padding-left: 60px;
   }
 }/*# sourceMappingURL=styles.css.map */

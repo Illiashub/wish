@@ -1,9 +1,9 @@
 .nav{
-
     &__list{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         list-style-type: none;
         width: 270px;
+        margin-right: 20px;
     }
 }
