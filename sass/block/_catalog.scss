@@ -1,0 +1,25 @@
+.catalog{
+    
+    &__blocks{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+    }
+
+    &__img{
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+
+    &__descr{
+        font-size: 20px;
+        padding-left: 20px;
+    }
+
+   
+    &__img::after{
+        background-color: white;
+        opacity: 30;
+    }
+}
+

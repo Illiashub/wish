@@ -40,7 +40,7 @@
         display: none;
     }
     .promo{
-       
+        width: 118%;
         &__img{
             display: none;
         }
@@ -65,7 +65,7 @@
     }
 
     .preview{
-
+        width: 118%;
         &__wrapper{
             flex-direction: column;
             
@@ -77,7 +77,7 @@
     }
 
     .projects{
-        
+        width: 118%;
 
         &__subheader{
             padding-left: 325px;
@@ -92,7 +92,7 @@
     }
 
     .projects{
-        
+        width: 118%;
 
         &__subheader{
             padding-left: 560px;
@@ -105,7 +105,7 @@
     }
 
     .process{
-        
+        width: 118%;
         
         &__block{
             padding-left: 150px;
@@ -124,7 +124,7 @@
     }
 
     .clients{
-        
+        width: 118%;
         &__report{
             padding-left: 60px;
         }
@@ -143,10 +143,10 @@
     }
 
     .featured{
-
+        width: 118%;
 
         &__list{
-            flex-direction: row-reverse;
+            flex-direction: column;
             align-items: center;
         }
 
@@ -160,6 +160,7 @@
     }
 
     .team{
+        width: 118%;
         &__block{
             flex-direction: column;
             padding-left: 90px;
@@ -171,7 +172,7 @@
     }
 
     .touch{
-
+        width: 118%;
         &__title{
             font-size: 30px;
         }
@@ -180,6 +181,7 @@
     }
 
     .footer{
+        width: 118%;
         &__block{
             flex-direction: column;
             align-items: center;
@@ -194,7 +196,7 @@
     }
 
     .header{
-        max-width: 100%;
+        width: 100%;
         &__logo{
             padding-top: 5px;
             padding-bottom: 10px;
@@ -202,10 +204,16 @@
     }
 
     .promo{
-        max-width: 100%;
+        width: 100%;
+        &__descr{
+            width: 95%;
+            margin-left: 10px;
+        }
+
 
         &__title{
-            font-size: 40px;
+            font-size: 37px;
+            margin-left: 10px;
         }
 
         &__btn{
@@ -214,18 +222,18 @@
     }
 
     .projects{
-        max-width: 100%;
+        width: 100%;
         &__subheader{
-            padding-left: 360px;
+            padding-left: 180px;
         }
 
         &__descr{
-            padding-left: 360px;
+            padding-left: 180px;
         }
     }
 
     .process{
-        max-width: 100%;
+        width: 100%;
         &__title{
             padding-left: 0;
             font-size: 30px;
@@ -238,18 +246,20 @@
     }
 
     .featured{
-        max-width: 100%;
+        width: 100%;
 
         &__list{
             flex-direction: column;
         }
 
         &__title{
-            padding-left: 100px;
+            padding-left: 35px;
+            width: 82%;
         }
 
         &__subtitle{
-            padding-left: 100px;
+            padding-left: 35px;
+            width: 80%;
         }
 
         &__button{
@@ -258,22 +268,66 @@
     }
 
     .preview{
-        
+        width: 100%;
+
         &__author__name{
             width: 110px;
+        }
+
+        &__block{
+            width: 400px;
+        }
+
+        &__descr{
+            width: 80%;
         }
 
         
     }
 
     .team{
+        padding-top: 50px;
+        width: 100%;
+
 
         &__preview{
-            gap: 15px;
+            display: flex;
+            flex-direction: column;
         }
 
         &__block{
-            padding-left: 60px;
+            padding-left: 30px;
         }
+    }
+
+    .clients{
+        width: 100%;
+
+        &__list{
+            padding-left: 90px;
+        }
+
+    }
+
+    .touch{
+        width: 100%;
+
+        &__block{
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__button{
+            height: 50px;
+        }
+        &__title{
+            width: 337px;
+        }
+
+    }
+
+    .footer{
+        width: 100%;
+
     }
 }
