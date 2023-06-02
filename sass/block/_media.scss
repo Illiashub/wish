@@ -3,7 +3,47 @@
         max-width: 960px;
     }
 
+    .promo{
 
+        &__img{
+            width: 651px;
+            height: auto;
+        }
+
+        &__subtitle{
+            padding-top: 40px;
+            padding-left: 0;
+        }
+
+        &__title{
+            padding-left: 0;
+        }
+
+        &__descr{
+            padding-left: 0;
+        }
+
+        &__btn{
+            padding-left: 0;
+        }
+    }
+
+    .touch{
+        &__desc{
+            padding-left: 50px;
+        }
+    }
+
+    .projects{
+        
+        &__descr{
+            padding-left: 980px;
+        }
+
+        &__subheader{
+            padding-left: 980px;
+        }
+    }
 
 }
 
@@ -12,7 +52,127 @@
         max-width: 720px;
     }
 
+    .header{
+
+        &__nav{
+           margin-left: 70px;
+        }
+    }
+
+    .preview{
+        
+        &__title{
+            width: 80px;
+        }
+
+    }
+
+    .projects{
+        
+        &__descr{
+            padding-left: 760px;
+        }
+
+        &__subheader{
+            padding-left: 760px;
+        }
+    }
+
+    .promo{
+
+        &__title{
+            font-size: 54px;
+        }
+
+        &__img{
+            width: 427px;
+            height: auto;
+            
+        }
+
+        &__subtitle{
+            padding-top: 40px;
+            padding-left: 0;
+        }
+
+        &__title{
+            padding-left: 0;
+        }
+
+        &__descr{
+            padding-left: 0;
+        }
+
+        &__btn{
+            padding-left: 0;
+        }
+    }
+
+    .process{
+
+        &__block{
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        &__wrapper{
+            width: 100%;
+        }
+    }
+
+    .featured{
+
+        &__list{
+            justify-content: space-around;
+        }
+
+        &__desc__button{
+            margin-top: 330px;
+        }
+
+        &__pr{
+            width: 313px;
+            height: auto;
+        }
+
+        &__items{
+            height: 400px;
+            width: 300px;
+        }
+
+        &__button{
+            padding-left: 0;
+            margin-left: 50%;
+        }
+    }
+
     
+
+     .touch{
+        &__desc{
+            padding-left: 50px;
+        }
+    }
+
+    .clients{
+
+        &__list{
+            padding-right: 0;
+            width: 255px;
+            margin-left: 80px;
+            
+        }
+
+        &__block{
+            width: 550px;
+        }
+
+        &__report{
+            padding-left: 0;
+        }
+
+        
+    }
 }
 
 @media( max-width: 768px){

@@ -1,0 +1,28 @@
+.descr{
+    background-color: #ECE7E4;
+
+    &__item{
+        padding-top: 95px;
+    }
+
+    &__img{
+        width: 800px;
+        height: 903px;
+    }
+
+    &__block{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__title{
+        font-size: 54px;
+        padding-left: 200px;
+    }
+
+    &__text{
+        font-size: 25px;
+        padding-left: 300px;
+        width: 900px;
+    }
+}
