@@ -1,6 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 .container{
     margin: 0 auto;
-    max-width: 1440;
+    max-width: 1440px;
 }
 
 
@@ -17,7 +24,7 @@
 @import 'block/footer.scss';
 @import 'block/media.scss';
 @import 'block/catalog.scss';
-@import 'catalog_items/catalog_projects.scss';
+@import 'block/catalog_projects.scss';
 
 
 

@@ -6,7 +6,7 @@
     .promo{
 
         &__img{
-            width: 651px;
+            width: 500px;
             height: auto;
         }
 
@@ -178,6 +178,27 @@
 @media( max-width: 768px){
     .container{
         max-width: 540px;
+    }
+
+    .catalog{
+        
+        &__img{
+            width: 260px;
+            height: auto;
+        }
+
+        &__img img{
+            width: 100%;
+        } 
+
+        &__img__block{
+            width: 260px;
+        }
+        
+        &__blocks{
+            display: flex;
+            justify-content: space-between;
+        }
     }
 
     .header{
